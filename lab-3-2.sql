@@ -39,4 +39,7 @@
 -- | Washington Nationals          | 78.0             |
 -- +-------------------------------+------------------+
 
-
+Select name, AVG (wins)
+From teams
+Where year >=1960
+GROUP BY (name)
