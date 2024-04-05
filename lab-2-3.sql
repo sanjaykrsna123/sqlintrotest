@@ -7,3 +7,8 @@
 -- +------+-------------------+
 
 
+SELECT year,name
+FROM teams
+Where park = "U.S. Cellular Field"
+Order by year Desc 
+Limit 1
